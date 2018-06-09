@@ -1,0 +1,371 @@
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET /users HTTP/1.1" 301 0
+[36mGET /users/[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+[35mGET /users/ - 403[0m
+[35m{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}[0m
+[35mb'{"detail":"\xec\x9e\x90\xea\xb2\xa9 \xec\x9d\xb8\xec\xa6\x9d\xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0(authentication credentials)\xea\xb0\x80 \xec\xa0\x9c\xea\xb3\xb5\xeb\x90\x98\xec\xa7\x80 \xec\x95\x8a\xec\x95\x98\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4."}'[0m
+"GET /users/ HTTP/1.1" 403 96
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET /users HTTP/1.1" 301 0
+[36mGET /users/[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+[35mGET /users/ - 403[0m
+[35m{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}[0m
+[35mb'{"detail":"\xec\x9e\x90\xea\xb2\xa9 \xec\x9d\xb8\xec\xa6\x9d\xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0(authentication credentials)\xea\xb0\x80 \xec\xa0\x9c\xea\xb3\xb5\xeb\x90\x98\xec\xa7\x80 \xec\x95\x8a\xec\x95\x98\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4."}'[0m
+"GET /users/ HTTP/1.1" 403 96
+"GET /users HTTP/1.1" 301 0
+[36mGET /users/[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+[35mGET /users/ - 403[0m
+[35m{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}[0m
+[35mb'{"detail":"\xec\x9e\x90\xea\xb2\xa9 \xec\x9d\xb8\xec\xa6\x9d\xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0(authentication credentials)\xea\xb0\x80 \xec\xa0\x9c\xea\xb3\xb5\xeb\x90\x98\xec\xa7\x80 \xec\x95\x8a\xec\x95\x98\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4."}'[0m
+"GET /users/ HTTP/1.1" 403 96
+"GET /users HTTP/1.1" 301 0
+[36mGET /users/[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+[35mGET /users/ - 403[0m
+[35m{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}[0m
+[35mb'{"detail":"\xec\x9e\x90\xea\xb2\xa9 \xec\x9d\xb8\xec\xa6\x9d\xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0(authentication credentials)\xea\xb0\x80 \xec\xa0\x9c\xea\xb3\xb5\xeb\x90\x98\xec\xa7\x80 \xec\x95\x8a\xec\x95\x98\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4."}'[0m
+"GET /users/ HTTP/1.1" 403 96
+"GET /users HTTP/1.1" 301 0
+[36mGET /users/[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+[35mGET /users/ - 403[0m
+[35m{'content-type': ('Content-Type', 'application/json'), 'vary': ('Vary', 'Accept'), 'allow': ('Allow', 'GET, POST, HEAD, OPTIONS')}[0m
+[35mb'{"detail":"\xec\x9e\x90\xea\xb2\xa9 \xec\x9d\xb8\xec\xa6\x9d\xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0(authentication credentials)\xea\xb0\x80 \xec\xa0\x9c\xea\xb3\xb5\xeb\x90\x98\xec\xa7\x80 \xec\x95\x8a\xec\x95\x98\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4."}'[0m
+"GET /users/ HTTP/1.1" 403 96
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[36mGET /Users[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib64/python3.6/dist-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users\.(?P<format>[a-z0-9]+)/?$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)/$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^$' [name='api-root']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>], [<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>]], 'path': 'Users'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) '^admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib64/python3.6/dist-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users\.(?P<format>[a-z0-9]+)/?$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)/$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^$' [name='api-root']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>], [<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>]], 'path': 'Users'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>
+[35mGET /Users - 404[0m
+Not Found: /Users
+"GET /Users HTTP/1.1" 404 3237
+[36mGET /Users[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib64/python3.6/dist-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users\.(?P<format>[a-z0-9]+)/?$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)/$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^$' [name='api-root']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>], [<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>]], 'path': 'Users'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) '^admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib64/python3.6/dist-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users\.(?P<format>[a-z0-9]+)/?$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)/$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^$' [name='api-root']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>], [<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>]], 'path': 'Users'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>
+[35mGET /Users - 404[0m
+Not Found: /Users
+"GET /Users HTTP/1.1" 404 3237
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[36mGET /User[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib64/python3.6/dist-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users\.(?P<format>[a-z0-9]+)/?$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)/$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^$' [name='api-root']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>], [<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>]], 'path': 'User'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) '^admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib64/python3.6/dist-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users\.(?P<format>[a-z0-9]+)/?$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)/$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^$' [name='api-root']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>], [<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>]], 'path': 'User'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>
+[35mGET /User - 404[0m
+Not Found: /User
+"GET /User HTTP/1.1" 404 3234
+[36mGET /User[0m
+[36m{'HTTP_USER_AGENT': 'Wget/1.18 (linux-gnu)', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCEPT_ENCODING': 'identity', 'HTTP_HOST': 'localhost:9000', 'HTTP_CONNECTION': 'Keep-Alive'}[0m
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib64/python3.6/dist-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users\.(?P<format>[a-z0-9]+)/?$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)/$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^$' [name='api-root']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>], [<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>]], 'path': 'User'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) '^admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/lib64/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib64/python3.6/dist-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users\.(?P<format>[a-z0-9]+)/?$' [name='user-list']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)/$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^users/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='user-detail']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^$' [name='api-root']>], [<URLResolver <URLPattern list> (None:None) '^'>, <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>], [<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>]], 'path': 'User'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/dist-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'rest_framework.urls' from '/usr/local/lib/python3.6/site-packages/rest_framework/urls.py'> (rest_framework:rest_framework) '^api-auth/'>
+[35mGET /User - 404[0m
+Not Found: /User
+"GET /User HTTP/1.1" 404 3234
