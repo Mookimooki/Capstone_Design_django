@@ -19,6 +19,6 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 #    url(r'fish', rest_views.fish),
     url(r'fish', rest_views.FishAnalysisView.as_view(), name='file-upload'),
-    url(r'report', rest_views.BugReportView.as_view(), name='bug-report'),
+    url(r'report', rest_views.ReportView.as_view(), name='bug-report'),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) 
 

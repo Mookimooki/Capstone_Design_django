@@ -8,7 +8,6 @@ from rest_framework import viewsets
 from . serializers import UserSerializer, GroupSerializer, FishSerializer, ReportSerializer
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from rest_framework.views import APIView
 from rest_framework.parsers import MultiPartParser, FormParser
@@ -29,7 +28,6 @@ class GroupViewSet(viewsets.ModelViewSet):
     serializer_class = GroupSerializer
 
 class FishAnalysisView(APIView):
-    parser_classes = (MultiPartParser, FormParser)
     def post(self, request, *args, **kwargs):
         fish_serializer = FishSerializer(data=request.data)
         if fish_serializer.is_valid():
@@ -39,12 +37,33 @@ class FishAnalysisView(APIView):
             return Response(fish_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class BugReportView(APIView):
-    parser_classes = (MultiPartParser, FormParser)
+class ReportView(APIView):
     def post(self, request, *args, **kwargs):
         report_serializer = ReportSerializer(data=request.data)
         if report_serializer.is_valid():
             report_serializer.save()
-            return Response(report_serializer.data, status=status.HTTP_201_CREATED)
+            return Response(True, status=status.HTTP_201_CREATED)
         else:
             return Response(report_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

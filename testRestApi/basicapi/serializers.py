@@ -5,7 +5,7 @@ from .models import Fish, Report
 class ReportSerializer(serializers.ModelSerializer):
     class Meta:
         model = Report
-        fields = ('image_id','content')
+        fields = ('image_id', 'report_type', 'content', 'title')
 
 class FishSerializer(serializers.ModelSerializer):
     class Meta:
