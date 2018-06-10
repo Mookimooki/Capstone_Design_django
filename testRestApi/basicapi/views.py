@@ -32,7 +32,7 @@ class FishAnalysisView(APIView):
         fish_serializer = FishSerializer(data=request.data)
         if fish_serializer.is_valid():
             fish_serializer.save()
-            return Response(fish_serializer.data, status=status.HTTP_201_CREATED)
+            return Response({"id":fish_serializer.data['id']}, status=status.HTTP_201_CREATED)
         else:
             return Response(fish_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
